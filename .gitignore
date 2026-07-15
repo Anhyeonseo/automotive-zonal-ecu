@@ -1,0 +1,40 @@
+# STM32CubeIDE build output
+**/Debug/
+**/Release/
+**/build/
+*.o
+*.obj
+*.elf
+*.hex
+*.bin
+*.map
+*.list
+*.d
+*.su
+*.cyclo
+default.size.stdout
+compile_commands.json
+
+# Host test output
+*.exe
+*.pdb
+*.ilk
+
+# Eclipse / STM32CubeIDE local workspacea
+.metadata/
+.cubeide-headless*/
+**/.cubeide-headless*/
+RemoteSystemsTempFiles/
+*.launch
+*.log
+
+# Other editor and OS files
+.vs/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*~
+
